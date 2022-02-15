@@ -26,5 +26,45 @@ public class Ships {
         return "Nave #"+ id + " Tipo=" + Type + " Nombre=" + Name + " Combustible=" + Fuel + " Pais=" + Country;
     }
 
+    public String getType() { // generacion de los metodos Get y Set de cada uno de los atributos 
+        return Type;
+    }
 
+    public void setType(String Type) {
+        this.Type = Type;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String Name) {
+        this.Name = Name;
+    }
+
+    public String getFuel() {
+        return Fuel;
+    }
+
+    public void setFuel(String Fuel) {
+        this.Fuel = Fuel;
+    }
+
+    public String getCountry() {
+        return Country;
+    }
+
+    public void setCountry(String Country) {
+        this.Country = Country;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+    
+    
 }
